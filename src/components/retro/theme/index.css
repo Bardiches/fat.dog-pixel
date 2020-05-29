@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.retro-theme {
+  background-color: black;
+  image-rendering: pixelated;
+  font-family: 'Press Start 2P';
+  color: white;
+  line-height: 1.5;
+  font-smooth: none;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
+}
+
+.retro-theme ul {
+  list-style-type: '*';
+}

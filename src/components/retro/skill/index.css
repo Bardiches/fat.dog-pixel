@@ -1,0 +1,29 @@
+.retro-skill-container {
+  display: flex;
+}
+
+.retro-skill-name {
+  flex: 1 1 100%;
+}
+
+.retro-skill-level {
+  flex: 0 0 0;
+  text-align: right;
+}
+
+.retro-skill-point-container {
+  flex: 0 0 0;
+}
+
+.retro-skill-points {
+  width: 4.375em;
+}
+
+.retro-skill-point {
+  height: 0.875em;
+  vertical-align: text-top;
+}
+
+.retro-skill-point-container .retro-skill-point:not(:first-child) {
+  padding-left: 0.125em;
+}

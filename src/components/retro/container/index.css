@@ -1,0 +1,32 @@
+.retro-container {
+  margin: 0 auto;
+  margin-top: 0.25em;
+}
+
+@media only screen and (max-width: 720px) {
+  .retro-container {
+    font-size: 8px;
+    width: 360px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .retro-container {
+    font-size: 16px;
+    width: 720px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .retro-container {
+    font-size: 24px;
+    width: 1080px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .retro-container {
+    font-size: 32px;
+    width: 1440px;
+  }
+}

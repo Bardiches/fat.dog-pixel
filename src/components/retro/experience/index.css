@@ -1,0 +1,18 @@
+.retro-experience-container {
+  display: flex;
+}
+  
+.retro-experience-icon-container {
+  flex: 0 0 0;
+  padding-left: 0.375em;
+  padding-right: 0.75em;
+}
+
+.retro-experience-icon {
+  height: 4em;
+  width: 4em;
+}
+
+.retro-experience-detail {
+  flex: 0 0 1;
+}

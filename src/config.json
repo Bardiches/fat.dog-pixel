@@ -1,0 +1,29 @@
+{
+  "blurb": "Hi, I'm an example. How are you?",
+  "biography": [
+    "This is a biography!"
+  ],
+  "skills": {
+    "programmingLanguages": [
+      { "name": "Befunge", "level": 9 }
+    ],
+    "technologies": [
+      { "name": "Cool Framework", "level": 1 }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Example",
+      "title": "Senior Example Engineer",
+      "date": "Oct. '98 / Present",
+      "logo": "/example-experience.png",
+      "link": "https://www.amazon.com/"
+    }
+  ],
+  "links": [
+    {
+      "logo": "/example-link.png",
+      "link": "https://www.example.com"
+    }
+  ]
+}
