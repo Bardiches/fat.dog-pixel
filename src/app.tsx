@@ -1,10 +1,12 @@
 import React from 'react';
-
 import ImageWithDefault from './components/image-with-default';
 import {
-  RetroContainer, RetroExperience, RetroSkillList, RetroTheme, RetroWindow,
+  RetroContainer,
+  RetroExperience,
+  RetroSkillList,
+  RetroTheme,
+  RetroWindow,
 } from './components/retro';
-
 import data from './config.json';
 import missingPortrait from './missing-portrait.png';
 import './app.css';

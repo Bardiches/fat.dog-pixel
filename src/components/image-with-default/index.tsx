@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-
 import missingImage from './missing-image.png';
 
+interface ImageWithDefaultProps {
+  src?: string;
+  defaultSrc?: string;
+  alt?: string;
+  [key: string]: any;
+}
+
 const ImageWithDefault = ({
-  src: initialSrc, defaultSrc, alt, ...rest
-}) => {
+  src: initialSrc = '',
+  defaultSrc = missingImage,
+  alt = '',
+  ...rest
+}: ImageWithDefaultProps) => {
   const [src, setSrc] = useState(initialSrc);
 
   return (
@@ -16,18 +24,6 @@ const ImageWithDefault = ({
       {...rest} // eslint-disable-line react/jsx-props-no-spreading
     />
   );
-};
-
-ImageWithDefault.propTypes = {
-  src: PropTypes.string,
-  defaultSrc: PropTypes.string,
-  alt: PropTypes.string,
-};
-
-ImageWithDefault.defaultProps = {
-  src: '',
-  defaultSrc: missingImage,
-  alt: '',
 };
 
 export default ImageWithDefault;

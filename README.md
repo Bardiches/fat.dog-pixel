@@ -1,6 +1,4 @@
 # fat.dog-pixel
-[![Build Status](https://travis-ci.org/Bardiches/fat.dog-pixel.svg?branch=master)](https://travis-ci.org/Bardiches/fat.dog-pixel)
-
 `fat.dog-pixel` is a simple portfolio website located at [fat.dog](https://fat.dog). It is based off of [create-react-app](https://github.com/facebook/create-react-app) and features a retro gaming theme.
 
 ## Build Configuration
@@ -22,7 +20,7 @@ External link logos should be 24x24 images. They should be placed within `public
 
 ## Deployment Configuration
 
-`fat.dog-pixel` is built using [Travis CI](https://travis-ci.org/github/Bardiches/fat.dog-pixel) and deployed to [AWS S3](https://aws.amazon.com/s3/).
+`fat.dog-pixel` is built using GitHub actions and deployed to [AWS S3](https://aws.amazon.com/s3/).
 
 ### Travis `env` values
 
@@ -34,6 +32,6 @@ These values should be configured in your Travis CI build as a user that has acc
 
 This value should be set to the name of the bucket your files should be uploaded to. Currently, they are uploaded to the root directory.
 
-#### `ASSET_ZIP`
+#### `AWS_DISTRIBUTION_ID`
 
-In order to avoid having assets containing personal information hanging around GitHub, an `ASSET_ZIP` with a link to a ZIP file containing files to be added to the build can be provided. This is used to upload a locally editted `config.json` and various images in the `public/` directory. The structure within the ZIP file should match that of the project structure.
+This value should be set to the CloudFront distribution id to invalidate.

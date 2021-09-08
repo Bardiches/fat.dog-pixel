@@ -1,16 +1,30 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import clsx from 'clsx';
-
 import ImageWithDefault from '../../image-with-default';
 import './index.css';
 
+interface RetroExperienceProps {
+  company?: string,
+  title?: string,
+  date?: string,
+  logo?: string,
+  link?: string,
+  className?: string,
+  [key: string]: any;
+}
+
 const RetroExperience = ({
-  company, title, date, logo, link, className, style = ({}),
-}) => (
+  company = '',
+  title = '',
+  date = '',
+  logo = '',
+  link = '',
+  className,
+  ...rest
+}: RetroExperienceProps) => (
   <div
     className={clsx('retro-experience-container', className)}
-    style={style}
+    {...rest}
   >
     <div className="retro-experience-icon-container">
       <a href={link}>
@@ -32,25 +46,5 @@ const RetroExperience = ({
     </div>
   </div>
 );
-
-RetroExperience.propTypes = {
-  company: PropTypes.string,
-  title: PropTypes.string,
-  date: PropTypes.string,
-  logo: PropTypes.string,
-  link: PropTypes.string,
-  className: PropTypes.string,
-  style: PropTypes.object, // eslint-disable-line react/forbid-prop-types
-};
-
-RetroExperience.defaultProps = {
-  company: '',
-  title: '',
-  date: '',
-  logo: '',
-  link: '',
-  className: '',
-  style: {},
-};
 
 export default RetroExperience;

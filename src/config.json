@@ -1,29 +1,115 @@
 {
-  "blurb": "Hi, I'm an example. How are you?",
+  "blurb": "Hi, I'm Steve. I'm a huge nerd. Welcome to my site. I hope you enjoy stupid retro bull****.",
   "biography": [
-    "This is a biography!"
+    "Okay, but let me actually introduce myself. I'm Steve Goodman. I'm a full-stack software engineer with an M.S. in Computing, B.S. in Computer Science, and roughly 5 years of professional experience.",
+    "I am passionate about developing products that delight users and improve their productivity. I have a huge soft spot for products that turn complex, multi-step workflows into simple, \"1-click\" workflows.",
+    "Outside of my profession, I'm an avid gamer, collector of many stringed instruments, and mechanical keyboard enthusiast. I will talk your ear off about any of these things, so don't mention them if you're not prepared."
   ],
   "skills": {
     "programmingLanguages": [
-      { "name": "Befunge", "level": 9 }
+      { "name": "C/C++", "level": 6 },
+      { "name": "C#", "level": 8 },
+      { "name": "Java", "level": 8 },
+      { "name": "JavaScript", "level": 9 },
+      { "name": "Lua", "level": 4 },
+      { "name": "Python", "level": 6 },
+      { "name": "Ruby", "level": 5 },
+      { "name": "Rust", "level": 6 },
+      { "name": "SQL", "level": 7 }
     ],
     "technologies": [
-      { "name": "Cool Framework", "level": 1 }
+      { "name": ".NET", "level": 7 },
+      { "name": "Angular", "level": 5 },
+      { "name": "AWS", "level": 8 },
+      { "name": "Express", "level": 7 },
+      { "name": "NodeJS", "level": 9 },
+      { "name": "Rails", "level": 5 },
+      { "name": "ReactJS", "level": 9 },
+      { "name": "Spring", "level": 7 },
+      { "name": "VueJS", "level": 5 }
     ]
   },
   "experience": [
     {
-      "company": "Example",
-      "title": "Senior Example Engineer",
-      "date": "Oct. '98 / Present",
-      "logo": "/example-experience.png",
+      "company": "Shopify",
+      "title": "Senior Developer",
+      "date": "Aug. '21 / Present",
+      "logo": "/shopify.png",
+      "link": "https://www.shopify.com/"
+    },
+    {
+      "company": "Facebook",
+      "title": "Partner Engineer",
+      "date": "Oct. '20 / Jul. '21",
+      "logo": "/fb.png",
+      "link": "https://www.facebook.com/"
+    },
+    {
+      "company": "Amazon Alexa",
+      "title": "Software Development Engineer II",
+      "date": "Oct. '18 / Oct. '20",
+      "logo": "/alexa.png",
       "link": "https://www.amazon.com/"
+    },
+    {
+      "company": "Northwestern Mutual",
+      "title": "Senior Application Engineer",
+      "date": "Sep. '18 / Oct. '18",
+      "logo": "/nw.png",
+      "link": "https://www.northwesternmutual.com/"
+    },
+    {
+      "company": "Artisan Partners",
+      "title": "Software Engineer Consultant",
+      "date": "Jun. '17 / Apr. '18",
+      "logo": "/ap.png",
+      "link": "https://www.artisanpartners.com/"
+    },
+    {
+      "company": "GasDay",
+      "title": "Software Development Engineer",
+      "date": "May '15 / May '17",
+      "logo": "/gd.png",
+      "link": "https://www.marquetteenergyanalytics.com/"
+    },
+    {
+      "company": "Blizzard Entertainment",
+      "title": "Software Development Engineer Intern",
+      "date": "May '16 / Aug. '16",
+      "logo": "/blizz.png",
+      "link": "https://www.blizzard.com/"
+    },
+    {
+      "company": "Marquette University",
+      "title": "IT Technician",
+      "date": "Sep. '13 / Apr. '15",
+      "logo": "/mu.png",
+      "link": "https://www.marquette.edu/"
+    },
+    {
+      "company": "Integrated Medical Partners",
+      "title": "System Administrator",
+      "date": "Jun. '12 / Aug. '12",
+      "logo": "/imp.png",
+      "link": "https://integratedmp.com/"
     }
   ],
   "links": [
     {
-      "logo": "/example-link.png",
-      "link": "https://www.example.com"
+      "logo": "/linkedin.png",
+      "link": "https://www.linkedin.com/in/bardiches/"
+    },
+    {
+      "logo": "/github.png",
+      "link": "https://github.com/Bardiches"
+    },
+    {
+      "logo": "/twitter.png",
+      "link": "https://twitter.com/SomeFatDog"
+    },
+    {
+      "logo": "/twitch.png",
+      "link": "https://www.twitch.tv/bardiches"
     }
   ]
 }
