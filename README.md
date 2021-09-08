@@ -1,4 +1,6 @@
 # fat.dog-pixel
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Bardiches/fat.dog-pixel/Build%20and%20Deploy%20Site)
+
 `fat.dog-pixel` is a simple portfolio website located at [fat.dog](https://fat.dog). It is based off of [create-react-app](https://github.com/facebook/create-react-app) and features a retro gaming theme.
 
 ## Build Configuration
